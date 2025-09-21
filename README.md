@@ -1,24 +1,39 @@
 # 📝 Text Mining Toolkit
 
-## 📌 Overview
-This project explores **text mining and Natural Language Processing (NLP)** techniques using Python.  
-It demonstrates how to clean, preprocess, and analyze text data to extract valuable insights, such as word frequencies, sentiment, and topic structures.  
+Turn raw text into insights with NLP and visualization.
 
-The repo is designed as a **learning resource** and a **reference toolkit** for common text mining workflows.  
+---
+
+## 📌 Overview
+This project demonstrates how to apply **text mining and Natural Language Processing (NLP)** techniques to extract knowledge from unstructured text.  
+
+It includes a complete workflow:
+1. **Data collection & preprocessing** → cleaning text, tokenization, stopword removal, lemmatization.  
+2. **Exploratory analysis** → frequency distributions, n-grams, TF-IDF.  
+3. **Visualization** → word clouds, sentiment heatmaps, bar plots.  
+4. **Modeling** (optional) → topic modeling (LDA) and sentiment classification.  
+
+This toolkit is designed for **learning, experimentation, and as a starting point** for real-world NLP projects.
+
+---
+
+## 🎯 Key Features
+- 🔤 Text cleaning & normalization pipeline  
+- 📊 Word frequency & n-gram analysis  
+- ☁️ Word cloud generation  
+- ❤️ Sentiment analysis with visual summaries  
+- 🧵 Topic modeling with Latent Dirichlet Allocation (LDA)  
+- 📈 Clear visualizations of results  
 
 ---
 
 ## 📂 Project Structure
-- `notebooks/` → Jupyter notebooks with experiments and examples  
-- `src/` → helper scripts for preprocessing and analysis  
-- `data/` → sample datasets (or links to external sources)  
-- `reports/` → generated plots, word clouds, and summaries  
-
----
-
-## ⚙️ Installation
-Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/gcmls/text-mining.git
-cd text-mining
-pip install -r requirements.txt
+text-mining/
+│
+├── data/          # Sample datasets or links
+├── notebooks/     # Jupyter notebooks with analysis workflows
+├── src/           # Python scripts (preprocessing, analysis, visualization)
+├── reports/       # Generated visuals (word clouds, charts, etc.)
+├── requirements.txt
+└── README.md

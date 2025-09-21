@@ -1,7 +1,24 @@
-# Text Mining Project
+# 📝 Text Mining Toolkit
 
-<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/beatrizctgoncalves/project_tm/blob/master/Report_TextMining.pdf">Read PDF</a>.</p>
-    </embed>
-</object>
+## 📌 Overview
+This project explores **text mining and Natural Language Processing (NLP)** techniques using Python.  
+It demonstrates how to clean, preprocess, and analyze text data to extract valuable insights, such as word frequencies, sentiment, and topic structures.  
+
+The repo is designed as a **learning resource** and a **reference toolkit** for common text mining workflows.  
+
+---
+
+## 📂 Project Structure
+- `notebooks/` → Jupyter notebooks with experiments and examples  
+- `src/` → helper scripts for preprocessing and analysis  
+- `data/` → sample datasets (or links to external sources)  
+- `reports/` → generated plots, word clouds, and summaries  
+
+---
+
+## ⚙️ Installation
+Clone the repository and install the dependencies:
+```bash
+git clone https://github.com/gcmls/text-mining.git
+cd text-mining
+pip install -r requirements.txt
